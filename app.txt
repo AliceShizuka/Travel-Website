@@ -1,0 +1,57 @@
+import java.awt.*;
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class App extends JFrame{
+    public App() {
+        setTitle("Demo App");
+        setSize(600, 400);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+
+        //JPanel panel = new JPanel();
+        //panel.setLayout(new FlowLayout());
+        /* panel.setLayout(new BorderLayout());
+        panel.add(new JButton("First"), BorderLayout.NORTH);
+        panel.add(new JButton("Second"), BorderLayout.SOUTH);
+        panel.add(new JButton("Third"), BorderLayout.EAST);
+        panel.add(new JButton("Fourth"), BorderLayout.WEST);
+        panel.add(new JButton("Fifth"), BorderLayout.CENTER);
+        */
+        /*
+        setLayout(new BoxLayout(getContentPane(), BoxLayout.X_AXIS));
+        add(new JButton("First"));
+        add(new JButton("Second"));
+        add(new JButton("Third"));
+        add(new JButton("Fourth"));
+        add(new JButton("Fifth"));
+        */
+        setLayout(new GridLayout(3,2));
+        add(new JButton("First"));
+        add(new JButton("Second"));
+        add(new JButton("Third"));
+        add(new JButton("Fourth"));
+        add(new JButton("Fifth"));
+/*
+        JLabel label = new JLabel("Hello World");
+        panel.add(label);
+
+        JButton button = new JButton("Alice");
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                label.setText("Hi <3");
+                JOptionPane.showMessageDialog(null,"OK!");
+            }
+        });
+        panel.add(button);
+*/
+        //add(panel);
+
+        setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        new App();
+    }
+}

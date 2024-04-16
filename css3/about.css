@@ -1,0 +1,378 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	width: 1260px; margin: auto;
+} 
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+	z-index:1;
+    margin-left: -15px;
+}
+
+.Logo {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color : gray
+    margin-left: -50px;
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+	cursor: pointer;
+}
+
+.cari {
+    margin-right:-19px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i { 
+    color: white;
+}
+
+.cari:hover{
+	cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00cec9;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding: 20px 0 5px 10px;
+	line-height: 30px;
+}
+
+.container1 {
+    background-image: url(https://wallpaperaccess.com/full/1131217.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+	margin-top: 40px;
+	color: white;
+	font-family:Nothing you could do;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-left: 4px;
+	color: #F8EFBA;
+}
+
+.container2{
+	margin: 80px;
+}
+.container2 .kata h6{
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.container2 .kata p{
+	color: grey;
+	padding-bottom: 30px;
+	font-size: 15px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+.container2 .gambar img{
+	margin-left: 80px;
+	padding: 2px;
+	margin-top: 50px;
+	width: 450px;
+	height: 400px;
+}
+
+.video {
+	margin-top: 20px; width: 100%;
+}
+
+.merah img{
+	width: 100%; height: auto;
+}
+
+.muka {margin-top: 50px; background-color: #dff9fb; padding-top: 80px; padding-bottom: 50px;}
+.muka img {width: 150px; height: 150px; margin-left: 570px; clip-path: circle(40%);}
+.muka p {margin-top: 15px; font-size: 18px; width: 700px; margin-left: 285px; font-family: "Rubik",sans-serif; text-align: center;}
+.muka .siapa {margin-top: 9px; color: gray; font-family: "Rubik",sans-serif;}
+.muka .pagination {width: 500px;  padding: 15px; margin-top: 20px; margin-left: 575px;}
+.muka .pagination a {text-decoration: none; color: grey; font-size: 80px; padding: 10px 5px;}
+.muka .pagination .a1 {color: rgb(216, 113, 113);}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+} 
+.container7 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 15px; position: relative;
+	justify-content: center; float: left;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+
+.container7 .foto {
+	width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+.container7 .foto img {
+	width: 250px; height: 180px; border-radius: 15px;
+	padding: 10px;
+	background-color: white; cursor: default;
+}
+
+.container7 .foto .journey p{
+width: 260px; height: auto; 
+color: black;
+font-size: 17px; padding: 5px; text-align: left;
+background-color: white; font-family: "Rubik", sans-serif;
+margin-left: 10px; text-decoration: none; cursor: pointer;
+
+}
+
+.container7 .foto .judul p{
+width: 20%; height: auto; width: 250px;
+background-color: transparent; color: grey;
+font-size: 10px; padding: 5px; text-align: left;
+background-color: white; font-family: "Rubik", sans-serif;
+margin-bottom: 5px;
+margin-left: 10px;
+}
+
+.container7 .foto:hover .journey p{
+	color: red;
+	transition: ease-in-out 0.3s;
+}
+
+.container6 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+	font-family: "Rubik", sans-serif;
+	margin-left: 40px;
+}
+
+.container6 p {
+    margin-bottom: 5px;
+	font-size: 30px;
+	text-decoration: bolder;
+}
+
+footer {
+	width: 1260px; height: 440px; background-color: #040e27;
+	position: absolute;
+}
+
+.container8{
+	width: 870px; height: 300px; margin: 80px 150px 20px 200px;
+	float: left; position: relative; border-bottom: 0.2px solid grey;
+}
+
+footer .container8 .travelo{
+	width: 200px; height: 100px; float: left; position: relative;
+	margin-right: 80px;
+}
+footer .container8 .travelo img{
+	width: 150px; height: 150px; margin-top: -50px; margin-left: -20px; 
+}
+footer .container8 .travelo p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p:hover{
+	color: red;
+	cursor: pointer;
+}
+footer .container8 .travelo .media{ 
+    display: flex;
+    align-items: center;
+}
+footer .container8 .travelo .media i {
+    margin-right: 5px; color : #aab1b7;
+	padding-right: 15px; margin-top: 35px;
+}
+footer .container8 .travelo .media i:hover {
+    color: red;
+	cursor: pointer;
+}
+
+footer .container8 .company {
+	width: 100px; height: 100px; float: left; position: relative;
+	margin-right: 50px;
+}
+footer .container8 .company .text p {
+	color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .container8 .company .text1 p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .container8 .company .text1 p:hover{
+	color: red;
+	cursor: pointer;
+}
+
+footer .container8 .pd {
+	width: 230px; height: 100px; float: left; position: relative;
+	margin-right: 50px;
+}
+footer .container8 .pd .text p {
+	color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .pd .text1 .pdkiri{
+	width: 100px; height: 100px; float: left; position: relative;
+	margin-right: -10px;
+}
+footer .pd .text1 .pdkanan{
+	width: 100px; height: 100px; float: left; position: relative;
+}
+footer .pd .text1 .pdkiri p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .pd .text1 .pdkanan p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .pd .text1 .pdkiri p:hover{
+	color: red;
+	cursor: pointer;
+}
+footer .pd .text1 .pdkanan p:hover{
+	color: red;
+	cursor: pointer;
+}
+
+footer .container8 .ig {
+	width: 230px; height: 100px; float: left; 
+	position: relative; margin-left: -70px;
+}
+footer .container8 .ig .text p {
+	color: white; margin-bottom: 25px; font-size: 15px; margin-left: 10px;
+}
+footer .container8 .ig .galeri {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 5px; position: relative;
+	justify-content: center; float: left;
+}
+footer .container8 .ig .galeri .foto {
+	width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+footer .container8 .ig .galeri .foto img {
+	width: 60px; height: 60px; border-radius: 10px;
+	padding: 5px;
+}
+
+footer .copyright p{
+	text-align: center; font-size: 10px; color: #aab1b7;
+}
+footer .copyright a{
+	color: red; text-decoration: none;
+}

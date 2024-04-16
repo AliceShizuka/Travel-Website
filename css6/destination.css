@@ -1,0 +1,572 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	width: 1260px; margin: auto;
+} 
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+	z-index:1;
+    margin-left: -15px;
+}
+
+.Logo {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color : gray
+    margin-left: -50px;
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+	cursor: pointer;
+}
+
+.cari {
+    margin-right:-19px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i { 
+    color: white;
+}
+
+.cari:hover{
+	cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00cec9;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding: 20px 0 5px 10px;
+	line-height: 30px;
+}
+
+.container1 {
+    background-image: url(https://images.pexels.com/photos/4445241/pexels-photo-4445241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    margin-top: 40px;
+    color: white;
+    font-family:Nothing you could do;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-left: 4px;
+    color: white;
+}
+
+.container2 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+	font-family: "Rubik", sans-serif;
+	margin-left: 40px;
+}
+
+.container2 h1 {
+    margin-bottom: 20px;
+	font-size: 25px;
+}
+
+.container2 p {
+    width: 600px;
+    margin: auto;
+    color: gray;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+} 
+.container3 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 15px; position: relative;
+	justify-content: center; float: left;
+	margin-left: 240px;
+}
+
+.container3 .foto {
+	width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+.container3 .foto img {
+	width: 250px; height: 200px; border-radius: 20px;
+	padding: 10px;
+}
+
+.container3 .foto .judul {
+position: absolute; width: 20%; height: auto;
+background-color: transparent; color: white; bottom: 12%; left: 5%;
+border-radius: 20px; font-size: 15px; padding: 5px; font-family: arial;
+text-align: center; font-family: "Rubik", sans-serif;
+}
+
+.container3 .foto .nomor {
+position: absolute; width: 20%; height: auto;
+background-color: #00cec9; color: white; bottom: 14%; left: 30%;
+border-radius: 20px; font-size: 10px; padding: 5px; font-family: arial;
+text-align: center;
+}
+
+.container3 .foto:hover .nomor{
+	background-color: red;
+	margin-bottom: 5px;
+	cursor: pointer;
+	transition: ease-in-out 0.5s;
+}
+
+.container3 .foto:hover .judul{
+	color: red;
+	margin-bottom: 5px;
+	transition: ease-in-out 0.5s;
+}
+
+.container3 .foto:hover{
+	margin-top: -5px;
+	transition: ease-in-out 0.5s;
+}
+
+.container4 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+	font-family: "Rubik", sans-serif;
+	margin-left: 40px;
+}
+
+.container4 h1 {
+    margin-bottom: 20px;
+	font-size: 25px;
+    margin-top: 650px;
+}
+
+.container4 p {
+    width: 600px;
+    margin: auto;
+    color: gray;
+	padding-bottom: 5px;
+	font-size: 15px;
+}
+
+.listplace .foto{
+    width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+	margin-bottom:20px;
+}
+
+.listplace .foto img{
+    width: 300px; height: 200px; border-radius: 15px;
+	padding: 10px;
+	background-color: white;
+}
+
+.listplace {
+    display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 15px; position: relative;
+	justify-content: center; float: left;
+	width: 1650px;
+	margin-left: -180px; margin-bottom: 100px;
+}
+
+.listplace .foto .judul {
+    font-size: 15px;
+    color: white; 
+    padding: 5px 0 10px 5px;
+    margin-left: 15px;
+    font-family: "Rubik", sans-serif;
+}
+
+.listplace .foto .judul h1{
+    font-size: 20px; color: black;
+}
+
+.listplace .foto .judul p{
+    padding-top: 4px;
+    font-size: 15px; color: black;
+}
+
+.listplace .foto .nomor {
+    position: absolute;
+    width: 17%;
+    height: auto;
+    background-color: #00cec9;
+    top: 10%;
+    left: 10%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 7px;
+    color: white; font-family: "Rubik", sans-serif;
+}
+
+.listplace .foto:hover h1{
+    color: red;
+}
+
+.listplace .foto:hover .judul{
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.listplace .foto:hover .nomor{
+    background-color: red;
+}
+
+.listplace .foto .judul .fa {
+    display: inline-block;
+    color: yellow;
+}
+
+.listplace .foto .judul .star {
+    padding-top: 5px;
+}
+
+.listplace .foto .judul .days{
+    margin-left: 20px;
+    display: inline; color: grey;
+}
+
+.listplace .foto .judul .star a{
+    text-decoration: none;
+}
+
+.listplace .foto .judul .star .days a{
+    display: inline;
+}
+
+.mp {
+    width: 100%;
+    background-color: white;
+	height: 150px;
+}
+
+.mp .text {
+    margin: auto;
+    padding: 30px 100px;
+    text-align: center;
+}
+
+.mp .text button {
+    width: 120px;
+    height: 37px;
+    background: #ee5253;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    border-radius: 5px;
+    font-weight: bolder;
+	border: none;
+    color: white;
+	font-family: "Rubik", sans-serif;
+}
+
+.mp .text button:hover {
+    background-color:  #00cec9;
+	cursor: pointer;
+}
+
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+} 
+.container7 {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 15px; position: relative;
+	justify-content: center; float: left;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+
+.container7 .foto {
+	width: 100%;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+
+.container7 .foto img {
+	width: 250px; height: 180px; border-radius: 15px;
+	padding: 10px;
+	background-color: white; cursor: default;
+}
+
+.container7 .foto .journey p{
+width: 260px; height: auto; 
+color: black;
+font-size: 17px; padding: 5px; text-align: left;
+background-color: white; font-family: "Rubik", sans-serif;
+margin-left: 10px; text-decoration: none; cursor: pointer;
+
+}
+
+.container7 .foto .judul p{
+width: 20%; height: auto; width: 250px;
+background-color: transparent; color: grey;
+font-size: 10px; padding: 5px; text-align: left;
+background-color: white; font-family: "Rubik", sans-serif;
+margin-bottom: 5px;
+margin-left: 10px;
+}
+
+.container7 .foto:hover .journey p{
+	color: red;
+	transition: ease-in-out 0.3s;
+}
+
+
+.container6 {
+    width: auto;
+    background-color: white;
+    color: black;
+    padding: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+	font-family: "Rubik", sans-serif;
+	margin-left: 40px;
+}
+
+.container6 p {
+    margin-bottom: 5px;
+	font-size: 30px;
+	text-decoration: bolder;
+}
+
+footer {
+	width: 1260px; height: 440px; background-color: #040e27;
+	position: absolute;
+}
+
+.container8{
+	width: 870px; height: 300px; margin: 80px 150px 20px 200px;
+	float: left; position: relative; border-bottom: 0.2px solid grey;
+}
+
+footer .container8 .travelo{
+	width: 200px; height: 100px; float: left; position: relative;
+	margin-right: 80px;
+}
+footer .container8 .travelo img{
+	width: 150px; height: 150px; margin-top: -50px; margin-left: -20px; 
+}
+footer .container8 .travelo p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p:hover{
+	color: red;
+	cursor: pointer;
+}
+footer .container8 .travelo .media{ 
+    display: flex;
+    align-items: center;
+}
+footer .container8 .travelo .media i {
+    margin-right: 5px; color : #aab1b7;
+	padding-right: 15px; margin-top: 35px;
+}
+footer .container8 .travelo .media i:hover {
+    color: red;
+	cursor: pointer;
+}
+
+footer .container8 .company {
+	width: 100px; height: 100px; float: left; position: relative;
+	margin-right: 50px;
+}
+footer .container8 .company .text p {
+	color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .container8 .company .text1 p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .container8 .company .text1 p:hover{
+	color: red;
+	cursor: pointer;
+}
+
+footer .container8 .pd {
+	width: 230px; height: 100px; float: left; position: relative;
+	margin-right: 50px;
+}
+footer .container8 .pd .text p {
+	color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .pd .text1 .pdkiri{
+	width: 100px; height: 100px; float: left; position: relative;
+	margin-right: -10px;
+}
+footer .pd .text1 .pdkanan{
+	width: 100px; height: 100px; float: left; position: relative;
+}
+footer .pd .text1 .pdkiri p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .pd .text1 .pdkanan p{
+	font-size: 10px; color: #aab1b7;
+	margin-bottom: 15px;
+}
+footer .pd .text1 .pdkiri p:hover{
+	color: red;
+	cursor: pointer;
+}
+footer .pd .text1 .pdkanan p:hover{
+	color: red;
+	cursor: pointer;
+}
+
+footer .container8 .ig {
+	width: 230px; height: 100px; float: left; 
+	position: relative; margin-left: -70px;
+}
+footer .container8 .ig .text p {
+	color: white; margin-bottom: 25px; font-size: 15px; margin-left: 10px;
+}
+footer .container8 .ig .galeri {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	margin: 5px; position: relative;
+	justify-content: center; float: left;
+}
+footer .container8 .ig .galeri .foto {
+	width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+footer .container8 .ig .galeri .foto img {
+	width: 60px; height: 60px; border-radius: 10px;
+	padding: 5px;
+}
+
+footer .copyright p{
+	text-align: center; font-size: 10px; color: #aab1b7;
+}
+footer .copyright a{
+	color: red; text-decoration: none;
+}

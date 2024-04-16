@@ -1,0 +1,522 @@
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Nothing+You+Could+Do|Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap);
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+	width: 1260px; margin: auto;
+} 
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar*/
+nav {
+    position: sticky;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+    color: black;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    margin-left: -15px;
+}
+
+.Logo {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.Sosmed {
+    display: flex;
+    align-items: center;
+}
+
+.Sosmed .media i {
+    margin-right: 20px;
+    color : gray
+    margin-left: -50px;
+}
+
+.Sosmed .telp {
+    color: black;
+    margin-right: 80px;
+}
+
+.Sosmed .telp i {
+    color: red;
+    margin-right: 20px;
+}
+
+.Sosmed .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.cari {
+    margin-right:-19px;
+    padding: 30px;
+    background-color: red;
+}
+
+.cari i { 
+    color: white;
+}
+
+.cari:hover{
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    margin-left: -50px;
+}
+
+nav ul li {
+    margin-right: 15px;
+    list-style: none;
+    background: white;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #00cec9;
+}
+
+nav ul li ul li {
+    background: white;
+    width: 170px;
+    padding: 20px 0 5px 10px;
+    line-height: 30px;
+}
+
+.container1 {
+    background-image: url(https://images.pexels.com/photos/3131634/pexels-photo-3131634.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.container1 .kata {
+    margin: auto;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container1 .kata h3 {
+    font-size: 100px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+	margin-top: 25px;
+	color: white;
+	font-family:Nothing you could do;
+}
+
+.container1 .kata p {
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-left: 4px;
+	color: #F8EFBA;
+}
+
+.container2 { 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    margin-top: 80px;
+}
+.container2 .kiri {
+    width: 850px; float: left;
+	margin-left: 100px; margin-bottom: 50px;
+	float: left;
+}
+.container2 .kiri .page {
+	margin-top: 100px;
+    text-align: center;
+}
+.container2 .kiri .page a{
+    margin: 20px;
+    color: gray;
+	text-decoration: none;
+}
+.container2 .kiri .page a:hover {
+    color: #ee5253;
+}
+.container2 .kiri article img {
+    width: 100%;
+    height: 350px;
+	margin-top: 40px;
+}
+.container2 .kiri article {
+    position: relative;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	height: 650px
+}
+.container2 .kiri article .date {
+    background-color: #ee5253;
+    padding: 10px;
+    width: 60px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 53%;
+    left: 5%;
+}
+.container2 .kiri article .date p {
+	color: white;
+}
+.container2 .kiri article .date:hover{
+    background-color: transparent;
+    color: #ee5253;
+}
+.container2 .kiri article .date:hover p {
+	background-color: transparent;
+    color: #ee5253;
+}
+.container2 .kiri article .desc h3 {
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.container2 .kiri article .desc a h3:hover {
+    color: #ee5253;
+}
+.container2 .kiri article .desc p{
+    color: gray;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container2 .kiri article .desc {
+    padding: 30px 50px 90px 50px;
+}
+
+.container2 .kiri article .desc a {
+    color: gray;
+    font-size: 12px;
+	text-decoration: none;
+}
+.container2 .kiri article .desc a:hover {
+    color: #ee5253;
+}
+.container2 .kiri article .desc i {
+    margin-right: 5px;
+}
+
+
+.container2 .kanan {
+    padding-top: 30px;
+	margin-left: 100px;
+	width: 450px;
+	margin-right: 80px;
+}
+
+.container2 .kanan form{
+	background-color:#dfe4ea;
+}
+.container2 .kanan form input{
+    border: 1px solid lightgrey;
+	height: 45px; width: 250px;
+	float: left;
+	margin: 20px 15px 15px 35px; padding-left: 10px;
+}
+.container2 .kanan form button:hover{
+	background: #ee5253;
+	transition: .5s ease;
+}
+.container2 .kanan form button {
+    padding: 13px;
+    border: 1px solid lightgrey;
+    margin-left: 10px;
+    cursor: pointer;
+	margin: 5px 15px 15px 35px;
+	height: 45px; width: 264px;
+	background-color:#00cec9; color: white;
+}
+
+.container2 .kanan .category ul{
+	background-color:#dfe4ea;
+	padding-left: 35px;
+	padding-bottom: 10px;
+	padding-right: 35px;
+}
+.container2 .kanan .category ul li {
+    list-style: none;
+    padding: 15px 0;
+}
+.container2 .kanan .category ul li a {
+    transition: .5s ease;
+    font-weight: bold;
+}
+.container2 .kanan .category ul li a:hover {
+    color: #ee5253;
+}
+.container2 .kanan a, p {
+    color: gray;
+}
+.container2 .kanan h3 {
+    color: black;
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 70px; padding-top: 20px;
+}
+.container .kanan .category ul h3{
+	border-bottom: 0.5px solid grey;
+	padding-bottom: 10px;
+	padding-right: 25px;
+}
+
+.container2 .kanan .recent-post {
+	background-color:#dfe4ea;
+	padding-left: 25px; 
+	padding-bottom: 15px; 
+}
+.container .kanan .recent-post h3{
+	border-bottom: 0.5px solid grey;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	margin-right: 25px;
+}
+.container2 .kanan .recent-post .rp-item {
+    height: 78px;
+    margin: 20px 0; 
+}
+.container2 .kanan .recent-post .rp-item .rp-text {
+    padding: 15px; 
+}
+.container2 .kanan .recent-post .rp-item .rp-text a h4:hover {
+    color: #ee5253; 
+}
+.container2 .kanan .recent-post .rp-item h4 {
+    color: black; text-decoration: none;
+}
+.container2 .kanan .recent-post .rp-item p {
+    color: gray;
+}
+.container2 .kanan .recent-post .rp-item img{
+    float: left;
+    margin-right: 20px;
+}
+
+.container2 .kanan .tag{
+	background-color: #dfe4ea;
+}
+.container2 .kanan .tag h3{
+	margin-left: 40px;
+	border-bottom: 0.5px solid grey;
+	padding-bottom: 10px;
+	margin-right: 25px;
+}
+.container2 .kanan .tag-box ul{
+    display: inline-block;
+	background-color:#dfe4ea;
+	padding-left: 40px;
+	padding-bottom: 10px;
+}
+.container2 .kanan .tag-box ul li {
+    float: left; margin-top: 10px;
+	list-style: none;
+    padding: 5px;
+}
+.container2 .kanan .tag-box ul li a{
+    padding: 13px;
+    float: left;
+    font-size: 12px;
+	background-color: white;
+	transition: .5s ease;
+	border: 1px solid grey;
+	text-decoration: none;
+}
+.container2 .kanan .tag-box ul li a:hover{
+    background-color: #ee5253;
+    color: white;
+}
+
+.container2 .kanan .feeds{
+	background-color:#dfe4ea;
+	padding-left: 38px; padding-right: 25px;
+	padding-bottom: 20px;
+}
+.container2 .kanan .feeds img{
+	padding: 5px;
+}
+.container2 .kanan .feeds h3{
+	padding-left: 5px;
+	border-bottom: 0.5px solid grey;
+	padding-bottom: 10px;
+}
+
+.container2 .kanan .newsletter{
+	background-color:#dfe4ea;
+	padding-bottom: 10px;
+}
+.container2 .kanan .newsletter button {
+    background-color: #00cec9;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    width: 263px;
+}
+.container2 .kanan .newsletter button:hover {
+    background-color: #ee5253;
+}
+.container2 .kanan .newsletter h3 {
+	border-bottom: 0.5px solid grey;
+	padding-bottom: 15px;
+	margin-left: 35px;
+	margin-right: 40px;
+}
+
+
+footer {
+    width: 1260px; height: 440px; background-color: #040e27;
+    position: absolute; margin-top: 3500px;
+}
+
+.container8{
+    width: 870px; height: 300px; margin: 80px 150px 20px 200px;
+    float: left; position: relative; border-bottom: 0.2px solid grey;
+}
+
+footer .container8 .travelo{
+    width: 200px; height: 100px; float: left; position: relative;
+    margin-right: 80px;
+}
+footer .container8 .travelo img{
+    width: 150px; height: 150px; margin-top: -50px; margin-left: -20px; 
+}
+footer .container8 .travelo p{
+    font-size: 10px; color: #aab1b7;
+    margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p{
+    font-size: 10px; color: #aab1b7;
+    margin-bottom: 7px;
+}
+footer .container8 .travelo .bawah p:hover{
+    color: red;
+    cursor: pointer;
+}
+footer .container8 .travelo .media{ 
+    display: flex;
+    align-items: center;
+}
+footer .container8 .travelo .media i {
+    margin-right: 5px; color : #aab1b7;
+    padding-right: 15px; margin-top: 35px;
+}
+footer .container8 .travelo .media i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+footer .container8 .company {
+    width: 100px; height: 100px; float: left; position: relative;
+    margin-right: 50px;
+}
+footer .container8 .company .text p {
+    color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .container8 .company .text1 p{
+    font-size: 10px; color: #aab1b7;
+    margin-bottom: 15px;
+}
+footer .container8 .company .text1 p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+footer .container8 .pd {
+    width: 230px; height: 100px; float: left; position: relative;
+    margin-right: 50px;
+}
+footer .container8 .pd .text p {
+    color: white; margin-bottom: 25px; font-size: 15px;
+}
+footer .pd .text1 .pdkiri{
+    width: 100px; height: 100px; float: left; position: relative;
+    margin-right: -10px;
+}
+footer .pd .text1 .pdkanan{
+    width: 100px; height: 100px; float: left; position: relative;
+}
+footer .pd .text1 .pdkiri p{
+    font-size: 10px; color: #aab1b7;
+    margin-bottom: 15px;
+}
+footer .pd .text1 .pdkanan p{
+    font-size: 10px; color: #aab1b7;
+    margin-bottom: 15px;
+}
+footer .pd .text1 .pdkiri p:hover{
+    color: red;
+    cursor: pointer;
+}
+footer .pd .text1 .pdkanan p:hover{
+    color: red;
+    cursor: pointer;
+}
+
+footer .container8 .ig {
+    width: 230px; height: 100px; float: left; 
+    position: relative; margin-left: -70px;
+}
+footer .container8 .ig .text p {
+    color: white; margin-bottom: 25px; font-size: 15px; margin-left: 10px;
+}
+footer .container8 .ig .galeri {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    margin: 5px; position: relative;
+    justify-content: center; float: left;
+}
+footer .container8 .ig .galeri .foto {
+    width: auto;
+    height: auto;
+    float: left;
+    position: relative;
+    justify-content: center;
+}
+footer .container8 .ig .galeri .foto img {
+    width: 60px; height: 60px; border-radius: 10px;
+    padding: 5px;
+}
+
+footer .copyright p{
+    text-align: center; font-size: 10px; color: #aab1b7;
+}
+footer .copyright a{
+    color: red; text-decoration: none;
+}
